@@ -12,8 +12,7 @@ function Form() {
         <a className="submit" align="center">
           Sign in
         </a>
-        <p className="forgot" align="center">
-          <a href="#">Forgot Password? </a>
+       
         </p>
       </form>
     </div>
