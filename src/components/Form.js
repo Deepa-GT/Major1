@@ -4,13 +4,12 @@ function Form() {
   return (
     <div className="main">
         <p className="sign" align="center">
-        Sign in
+        Transition Effect
         </p>
         <form className="form1">
             <input className="username" type="text" placeholder="Username" />
-             <input className="password" type="password" placeholder="Password" />
              <a className="submit" align="center">
-             Sign in
+             Welcome
              </a>
         </form>
     </div>
