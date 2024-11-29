@@ -74,42 +74,23 @@ form.form1 {
   padding-top: 40px;
 }
 
-.password {
-  width: 76%;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 1px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  outline: none;
-  box-sizing: border-box;
-  border: 2px solid rgba(0, 0, 0, 0.02);
-  margin-bottom: 50px;
-  margin-left: 46px;
-  text-align: center;
-  margin-bottom: 27px;
-  font-family: "Ubuntu", sans-serif;
-}
 
-#light .username,
-#light .password {
+
+#light .username{
   color: rgb(38, 50, 56);
   background: rgba(136, 126, 126, 0.04);
 }
 
-#dark .username,
-#dark .password {
+#dark .username {
   color: rgb(254, 255, 255);
   background: rgba(255, 247, 247, 0.299);
 }
 
-.username:focus,
-.password:focus {
+.username:focus {
   border: 2px solid rgba(0, 0, 0, 0.18) !important;
 }
 
-.submit {
+.hello {
   cursor: pointer;
   border-radius: 5em;
   color: #fff;
@@ -124,7 +105,7 @@ form.form1 {
   font-size: 13px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
-.submit:hover{
+.hello:hover{
   border-color: #40034b;
 }
 
