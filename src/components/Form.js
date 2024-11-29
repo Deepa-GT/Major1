@@ -8,7 +8,7 @@ function Form() {
         </p>
         <form className="form1">
             <input className="username" type="text" placeholder="Username" />
-             <a className="submit" align="center">
+             <a className="hello" align="center">
              Welcome
              </a>
         </form>
